@@ -1,60 +1,29 @@
-React Sliding Puzzle Game
-An interactive and visually appealing sliding puzzle game built with React. This project features fluid animations using Framer Motion, a clean UI styled with Tailwind CSS, and is fully responsive for both desktop and mobile play.
+HTML Sliding Puzzle Game
+A classic sliding tile puzzle game built entirely with HTML, CSS, and vanilla JavaScript. This project is a single, self-contained file that runs in any modern web browser without needing any installation or setup.
 
 ✨ Features
-Customizable Grid Size: Play on different difficulty levels with 3x3, 4x4, or 5x5 grids.
+Responsive Design: The game board and layout adapt to different screen sizes, making it playable on both desktop and mobile.
 
-Fluid Animations: Tiles slide smoothly into place, powered by Framer Motion.
+Customizable Grid: Choose between 3x3, 4x4, and 5x5 puzzle sizes to change the difficulty.
 
-Performance Tracking: The game tracks the number of moves and the time taken to solve the puzzle.
+Game Statistics: Tracks your moves and time to solve the puzzle.
 
-Dual Controls:
+Keyboard and Touch Controls: Play using your keyboard's arrow keys or by clicking/tapping the tiles.
 
-Keyboard: Use WASD or the Arrow Keys on a desktop.
+Win Celebration: Enjoy a fun confetti animation when you solve the puzzle.
 
-Touch: Use on-screen buttons for mobile devices.
+Solvability Check: The puzzle is always solvable, thanks to an algorithm that checks the starting layout.
 
-Responsive Design: The layout seamlessly adapts to any screen size.
+🚀 How to Run
+Download the index.html file.
 
-Win Celebration: A fun particle effect celebrates when you solve the puzzle.
+Open the file directly in your web browser (like Chrome, Firefox, or Safari).
+
+That's it! The game will start automatically.
 
 🛠️ Technologies Used
-React: For building the user interface.
+HTML5: For the structure of the game.
 
-Framer Motion: For creating beautiful and smooth animations.
+Tailwind CSS: For styling the user interface (loaded via CDN).
 
-Tailwind CSS: For utility-first styling.
-
-🚀 Getting Started
-To get a local copy up and running, follow these simple steps.
-
-Prerequisites
-You need to have Node.js and npm (or yarn) installed on your machine.
-
-Installation & Usage
-Clone the repository:
-
-git clone https://github.com/vedanth888/Sliding-Puzzle-Game
-
-Navigate to the project directory:
-
-cd react-sliding-puzzle
-
-Install NPM packages:
-
-npm install
-
-Run the app in development mode:
-
-npm start
-
-This will open the application in your default browser at http://localhost:3000.
-
-🎮 How to Play
-Select your desired grid size (3x3, 4x4, or 5x5).
-
-Click or use the keyboard/on-screen controls to move a tile into the adjacent empty space.
-
-The goal is to arrange the tiles in numerical order from 1 to (gridSize*gridSize - 1).
-
-Click "Restart" or "New Game" at any time to start over.
+Vanilla JavaScript: For all the game logic, state management, and DOM manipulation.
